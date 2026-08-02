@@ -1,44 +1,44 @@
 # 🕋 Live Masjidil Haram (Termux)
 
-Streaming audio langsung dari YouTube Live Masjidil Haram menggunakan **yt-dlp** dan **mpv**.
+Streaming audio Live Masjidil Haram menggunakan **yt-dlp** dan **mpv**.
 
-## Fitur
+## ✨ Fitur
 
 - ✅ Auto Install Dependency
 - ✅ Auto Reconnect
-- ✅ Auto Refresh Player setiap 4 jam
+- ✅ Auto Refresh Player (4 Jam)
 - ✅ Smart Volume
 - ✅ Auto Restart (09:00 & 15:00)
 - ✅ Dashboard Monitoring
-- ✅ Auto Hapus Log > 7 Hari
+- ✅ Auto Hapus Log (>7 Hari)
 
 ---
 
-## Instalasi
+## 📥 Instalasi
 
-Install Git:
+### 1. Install Git
 
 ```bash
 pkg update -y
 pkg install git -y
 ```
 
-Clone repository:
+### 2. Clone Repository
 
 ```bash
 git clone https://github.com/febrianub/makkahonlinetest.git
 ```
 
-Masuk ke folder:
+### 3. Masuk ke Folder
 
 ```bash
 cd makkahonlinetest
 ```
 
-Jalankan:
+### 4. Jalankan Script
 
 ```bash
-bash makkahv9.1.sh
+bash makkah.sh
 ```
 
 Saat pertama kali dijalankan, script akan otomatis menginstal:
@@ -53,19 +53,19 @@ Setelah instalasi selesai, audio akan langsung diputar.
 
 ---
 
-## Menjalankan Kembali
+## ▶ Menjalankan Kembali
 
 ```bash
-cd makkahonlinetest
-bash makkahv9.1.sh
+cd ~/makkahonlinetest
+bash makkah.sh
 ```
 
 ---
 
-## Update
+## 🔄 Update
 
 ```bash
-cd makkahonlinetest
+cd ~/makkahonlinetest
 git pull
 ```
 
