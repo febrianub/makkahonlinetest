@@ -20,7 +20,8 @@ Install terlebih dahulu:
 
 ```bash
 pkg update -y
-pkg install -y git python nodejs mpv ffmpeg
+pkg install -y git python nodejs
+pkg install mpv ffmpeg
 python -m pip install -U yt-dlp
 ```
 
