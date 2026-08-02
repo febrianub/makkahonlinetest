@@ -21,12 +21,18 @@ Streaming audio Live Masjidil Haram menggunakan **yt-dlp** dan **mpv**.
 ```bash
 pkg update -y
 pkg install git -y
+pkg update -y
+pkg install -y python nodejs mpv ffmpeg git
+python -m pip install -U yt-dlp
 ```
 
 ### 2. Clone Repository
 
 ```bash
 git clone https://github.com/febrianub/makkahonlinetest.git
+git clone https://github.com/febrianub/makkahonlinetest.git
+cd makkahonlinetest
+bash makkah.sh
 ```
 
 ### 3. Masuk ke Folder
