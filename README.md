@@ -1,47 +1,68 @@
-# 🕋 Live Makkah
+# 🕋 Live Masjidil Haram (Termux)
 
-Live audio Masjidil Haram dari YouTube menggunakan **mpv** dan **yt-dlp**.
+Streaming audio langsung dari YouTube Live Masjidil Haram menggunakan **yt-dlp** dan **mpv**.
 
-## ✨ Fitur
+## Fitur
 
-- 🎧 Audio saja (hemat kuota)
-- 📡 Auto reconnect jika koneksi terputus
-- 🕘 Restart otomatis pukul 09:00
-- 🕒 Restart otomatis pukul 15:00
-- ❤️ Dashboard monitoring
-- 📜 Log otomatis
-- 📱 Dioptimalkan untuk Termux
+- ✅ Auto Install Dependency
+- ✅ Auto Reconnect
+- ✅ Auto Refresh Player setiap 4 jam
+- ✅ Smart Volume
+- ✅ Auto Restart (09:00 & 15:00)
+- ✅ Dashboard Monitoring
+- ✅ Auto Hapus Log > 7 Hari
 
 ---
 
-## 📦 Instalasi
+## Instalasi
+
+Install Git:
 
 ```bash
 pkg update -y
 pkg install git -y
-
-git clone https://github.com/febrianub/makkahonlinetest.git
-
-cd makkahonlinetest
-
-bash install.sh
 ```
 
----
-
-## ▶️ Menjalankan
-
-Setelah instalasi selesai cukup jalankan:
+Clone repository:
 
 ```bash
-makkah
+git clone https://github.com/febrianub/makkahonlinetest.git
+```
+
+Masuk ke folder:
+
+```bash
+cd makkahonlinetest
+```
+
+Jalankan:
+
+```bash
+bash makkahv9.1.sh
+```
+
+Saat pertama kali dijalankan, script akan otomatis menginstal:
+
+- Python
+- Node.js
+- MPV
+- FFmpeg
+- yt-dlp
+
+Setelah instalasi selesai, audio akan langsung diputar.
+
+---
+
+## Menjalankan Kembali
+
+```bash
+cd makkahonlinetest
+bash makkahv9.1.sh
 ```
 
 ---
 
-## 🔄 Update
-
-Untuk mendapatkan versi terbaru:
+## Update
 
 ```bash
 cd makkahonlinetest
@@ -49,21 +70,3 @@ git pull
 ```
 
 ---
-
-## 📱 Persyaratan
-
-- Termux
-- Android 8+
-- Koneksi Internet
-
----
-
-## 📜 Lisensi
-
-Free to use.
-
----
-
-## 👨‍💻 Author
-
-GitHub: https://github.com/febrianub
