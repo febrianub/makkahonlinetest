@@ -33,7 +33,7 @@ check_dep() {
         pkg install -y $PKGS
     fi
 
-    command -v yt-d
+    command -v yt-d}
 # ==========================================
 # LOG
 # ==========================================
