@@ -6,35 +6,6 @@
 
 URL="https://www.youtube.com/live/wawzF8i5yAo"
 
-if ! command -v mpv >/dev/null \
- || ! command -v yt-dlp >/dev/null \
- || ! command -v node >/dev/null; then
-    pkg update -y
-fi
-# AUTO INSTALL DEPENDENCY
-# ==========================================
-
-check_dep() {
-
-    command -v pkg >/dev/null || {
-        echo "❌ Script hanya untuk Termux"
-        exit 1
-    }
-
-    PKGS=""
-
-    command -v python  >/dev/null || PKGS="$PKGS python"
-    command -v node    >/dev/null || PKGS="$PKGS nodejs"
-    command -v mpv     >/dev/null || PKGS="$PKGS mpv"
-    command -v ffmpeg  >/dev/null || PKGS="$PKGS ffmpeg"
-
-    if [ -n "$PKGS" ]; then
-        pkg update -y
-        pkg install -y $PKGS
-    fi
-
-    command -v yt-d
-    }
 # ==========================================
 # LOG
 # ==========================================
