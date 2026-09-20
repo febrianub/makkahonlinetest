@@ -4,7 +4,7 @@
 # 🕋 LIVE MASJIDIL HARAM
 # ==========================================
 
-URL="https://www.youtube.com/live/wawzF8i5yAo"
+URL="https://cdn-globecast.akamaized.net/live/eds/saudi_quran/hls_roku/index.m3u8"
 # ==========================================
 # LOG
 # ==========================================
